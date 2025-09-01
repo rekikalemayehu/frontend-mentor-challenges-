@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height:100vh;
+      background-image: url(images/pattern-background-desktop.svg);
+    }
+    .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width:100%;
+      height:auto;
+      max-width: 350px;
+      overflow: hidden;
+      background-color: white;
+      border-radius: 25px;
+    }
+    .card-img{
+      width:100%;
+      height:180px;
+      background-image: url(images/illustration-hero.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .des{
+      margin:30px
+    }
+    h1{
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    p{
+      text-align: center;
+      color: hsl(225, 21%, 46%);
+      font-size: 15px;
+      line-height: 1.5;
+      margin: 10px 30px;
+    }
+    .annual-plan{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: hsl(228, 100%, 98%);
+      margin:10px;
+      padding:5px;
+      border-radius: 10px;
+      box-shadow:5px 10px 20px lightgray ;
+    }
+    .top h3{
+      margin:0;
+      font-size: 1rem;
+    }
+    .top span{
+      color:rgb(133, 130, 130);
+      margin-top:10px;
+      font-size: smaller;
+  
+    }
+    .btn{
+      background-color:blue;
+      color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      width:100%;
+      border-radius:10px;
+      font-weight: bold;
+      font-size:0.8rem;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: none;
+      box-shadow: 5px 10px 20px lightgray;
+    }
+   a{
+      color: blue;
+      margin-right: 20px;
+      font-size: small;
+    }
+    .card-img2{
+      margin-left:10px;
+      size:10px;
+    }
+    .cancel-order{
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+      color: gray;
+
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="card-img">
+  </div>
+  <div class="des">
+    <div class="title">
+    <h1>Order Summary</h1>
+  </div>
+  <div class="discription"> 
+    <p>
+      You can now listen to millions of songs, audiobooks,and podcasts on anydevice anywhere you like!
+    </p>
+    
+  </div>
+  <div class="annual-plan">
+    <div class="card-img2">
+    <img src="images/icon-music.svg" alt="">
+  </div>
+  <div class="top">
+    <h3>Annual Plan</h3>
+    <span>$59.99/year</span>
+  </div>
+  
+  <link rel="stylesheet" href=""><a href="">Change</a>
+  </div>
+  <button class="btn">Proceed to Payment</button>
+<div class="cancel-order">
+  Cancel Order
+</div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">riri</a>.
+  </div>
+</div>
+
+</body>
+</html>
